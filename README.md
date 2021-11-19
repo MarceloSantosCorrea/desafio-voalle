@@ -54,6 +54,4 @@ url de acesso [http://localhost:8000](http://localhost:8000).
 
 #### Criar o primeiro usuário
 
-```
-http://localhost/register
-```
+[http://localhost/register](http://localhost/register)
