@@ -29,9 +29,8 @@ MAIL_FROM_NAME="${APP_NAME}"
 ./vendor/bin/sail up -d
 ./vendor/bin/sail shell
 php artisan migrate
-
-url de acesso http://localhost
 ```
+url de acesso [http://localhost](http://localhost).
 
 ### Usando Servidor PHP
 
@@ -46,9 +45,9 @@ DB_USERNAME=sail
 DB_PASSWORD=password
 
 php artisan serve
+```
 
 url de acesso [http://localhost:8000](http://localhost:8000).
-```
 
 #### Criar o primeiro usuário
 
