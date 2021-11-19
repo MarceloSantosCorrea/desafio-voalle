@@ -6,7 +6,8 @@
 git clone https://github.com/MarceloSantosCorrea/desafio-voalle
 cd desafio-voalle
 
-cp .enx.example .env
+cp .env.example .env
+composer install
 php artisan key:generate
 ```
 
@@ -28,6 +29,8 @@ MAIL_FROM_NAME="${APP_NAME}"
 ```
 ./vendor/bin/sail up -d
 ./vendor/bin/sail shell
+
+Atenção!!! Se estiver rodando pela primeira vez, aguardar a criação do banco de dados pelo docker
 php artisan migrate
 ```
 url de acesso [http://localhost](http://localhost).
